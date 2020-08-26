@@ -11,8 +11,8 @@ async function main() {
 
   const search = 'bord'
 
-  const lat = 55.15724
-  const lng = 8.77034
+  const lat = 39.739235
+  const lng = -104.990250
 
   const url = `http://www.facebook.com/marketplace/112879158725932/search/?query=${search}&latitude=${lat}&longitude=${lng}&vertical=C2C&sort=BEST_MATCH`
   await page.goto(url)
